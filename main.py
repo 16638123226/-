@@ -43,9 +43,6 @@ def get_words():
 def get_random_color():
   return "#%06x" % random.randint(0, 0xFFFFFF)
 
-def get_name():
-  return "LYJ"
-
 client = WeChatClient(app_id, app_secret)
 
 wm = WeChatMessage(client)
